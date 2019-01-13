@@ -1,0 +1,626 @@
+    1  sudo yum install git
+    2  git --version
+    3  git config --global user.name "vargyas.lajos"
+    4  git config --global user.email "vargyaslajos@gmail.com"
+    5  git config --list
+    6  git --list
+    7  mkdir lajos
+    8  cd lajos
+    9  git clone https://github.com/vargyaslajos/test1.git
+   10  cd lajos
+   11  ls
+   12  nano tema1.txt
+   13  git nanon tema1.txt
+   14  git nano tema2.txt
+   15  nano tema2.txt
+   16  sudo yum install nano
+   17  nano tema2.txt
+   18  git add tema2.txt
+   19  git add tema.txt
+   20  cd lajos
+   21  pwd
+   22  ls
+   23  cd test1
+   24  ls
+   25  mv ../tema2.txt ./
+   26  ls
+   27  add tema2.txt
+   28  git add tema2.txt
+   29  git commit -m'tema.txt'
+   30  git pull origin master
+   31  git push origin master
+   32  git checkout branch1
+   33  git checkout 'branch1'
+   34  git checkout -b branch1
+   35  cd branch1
+   36  pwd
+   37  ls
+   38  ls -all
+   39  mkdir branch1
+   40  cd branch1
+   41  ls -all
+   42  pwd
+   43  nano myfile2.txt
+   44  add myfile2.txt
+   45  git add myfile2.txt
+   46  git commit myfile2.txt
+   47  git commit -m'myfile2.txt'
+   48  git push origin master
+   49  ls
+   50  cd ..
+   51  ls
+   52  git push origin branch1
+   53  ls
+   54  cd..
+   55  ./master
+   56  cd master
+   57  cd test1
+   58  cd ..
+   59  ls
+   60  cd test1
+   61  ls
+   62  cd branch1
+   63  git merge branch1
+   64  git push origin master
+   65  ls
+   66  cd..
+   67  cd ..
+   68  ls
+   69  git merge branch1
+   70  git pusch origin master
+   71  git push origin master
+   72  ls
+   73  cd ..
+   74  ls
+   75  cd ..
+   76  ls
+   77  ls -all
+   78  cd lajos
+   79  ls -all
+   80  cd test1
+   81  ls -all
+   82  git merge branch1
+   83  git push origin master
+   84  ls
+   85  git merge branch1
+   86  git push origin master
+   87  cd branch1
+   88  git add .
+   89  git checkout -b branch1
+   90  git branch1
+   91  git branch
+   92  git commit -m'branch1'
+   93  git push origin branch1
+   94  cd ..
+   95  git checkout master
+   96  git merge branch1
+   97  git push origin branch1
+   98  git push origin master
+   99  history -w ./history_Lajos_Vargyas.txt
+  100  ls
+  101  git push history_Lajos_Vargyas.txt
+  102  git .add
+  103  git add -m'history_Lajos_Vargyas.txt'
+  104  git add history_Lajos_Vargyas.txt
+  105  git push origin master
+  106  git commit -a -m'history_Lajos_Vargyas.txt'
+  107  git push origin master
+  108  sudo yum install -y java-1.8.0-openjdk-dlevel
+  109  cd..
+  110  cd ..
+  111  sudo yum install -y java-1.8.0-openjdk-dlevel
+  112  java -version
+  113  #java -version
+  114  #sudo yum install -y java-1.8.0-openjdk-dlevel
+  115  java -version
+  116  sudo yum update
+  117  sudo yum install -y java-1.8.0-openjdk-dlevel
+  118  sudo yum install java
+  119  java -version
+  120  cd /usrcd /usr/local/src/
+  121  cd /usr/local/src/
+  122  sudo wget http://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz
+  123  yum install wget
+  124  sudo yum install wget
+  125  sudo wget http://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz
+  126  sudo tar -xf apache-maven-3.6.0-bin.tar.gz 
+  127  sudo mv apache-maven-3.6.0/ apache-maven/
+  128  ls
+  129  cd /etc/profile.d/
+  130  sudo nano maven.sh
+  131  sudo chmod +x maven.sh
+  132  source /etc/profile.d/maven.sh 
+  133  mvn -version
+  134  mkdir maven project
+  135  cd maven project
+  136  ls
+  137  mvn project
+  138  mvn archtype:generate
+  139  mvn archtype: generate
+  140  mvn archtype:generate
+  141  mvn archetype:generate
+  142  ls
+  143  cd devops-curs
+  144  ls
+  145  nano pom.xml
+  146  ls -L
+  147  ls -R
+  148  mvn compile
+  149  java -version
+  150  mvn compile
+  151  sudo yum install java
+  152  uname -a
+  153  hostnamectl
+  154  echo $JAVA_HOME
+  155  cd /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/
+  156  ls
+  157  sudo alternatives --config java
+  158  JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-0.el7_5.x86_64/jre/bin/java"
+  159  source /etc/environment 
+  160  echo $JAVA_HOME
+  161  source /etc/environment cd /home/vargyaslajos/
+  162  ls
+  163  cd /home/
+  164  ls
+  165  cd vargyaslajos/maven/
+  166  ls
+  167  cd devops-curs/
+  168  cd ..
+  169  rmdir devops-curs/
+  170  cd devops-curs/
+  171  ls
+  172  mvn compile
+  173  pwd
+  174  mkdir jenkins
+  175  pwd
+  176  cd jenkins
+  177  wget http://mirror.jenkins.io/war-stable/latest/jenkins.war
+  178  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+  179  java -jar jenkins.war
+  180  sudo cat /home/vargyaslajos/.jenkins/secrets/initialAdminPassword
+  181  aternatives -- config java
+  182  aternatives --config java
+  183  alternatives --config java
+  184  mvn -version
+  185  pwd
+  186  cd. maven
+  187  cd ..
+  188  pwd
+  189  mvn compile
+  190  ls
+  191  cd vargyaslajos/
+  192  ls
+  193  cd maven/
+  194  ls
+  195  cd devops-curs/
+  196  ls
+  197  mvn compile
+  198  alternatives --config java
+  199  sudo yum install openjdk-8-jdk
+  200  grep openjdk /etc/yum.conf
+  201  sudo yum install java-1.8.0-openjdk-devel
+  202  alternatives --config java
+  203  mvn compile
+  204  mvn package shade:shade
+  205  mvn -version
+  206  ls
+  207  cd ..
+  208  ls
+  209  cd ..
+  210  ls
+  211  pwd
+  212  cd maven
+  213  pwd
+  214  ls
+  215  cd devops-curs
+  216  ls
+  217  pwd
+  218  history
+  219  history -w comenzi.txt
+  220  ls
+  221  push git comenzi.txt
+  222  git push comenzi.txt
+  223  vargyaslajos
+  224  github push comanzi.txt
+  225  git init
+  226  git add comenzi.txt
+  227  git commit "comenzi.txt"
+  228  git origin master
+  229  pwd
+  230  it commit -m 'comenzi.txt'
+  231  git commit -m 'comenzi.txt'
+  232  pwd
+  233  ls
+  234  pwd
+  235  ls
+  236  pwd
+  237  cd ..
+  238  ls
+  239  mkdir doker
+  240  cd doker
+  241  sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+  242  sudo yum-config-manager --add-repo
+  243  https://download.docker.com/linux/centos/docker-ce.repo
+  244  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+  245  sudo yum install docker-ce
+  246  sudo systemctl start docker
+  247  sudo docker run hello-world
+  248  sudo docker ps
+  249  sudo docker ps -a
+  250  sudo docker run debian ls
+  251  sudo docker run -it debian /bin/bash
+  252  sudo docker ps -a
+  253  sudo docker start -a -i cb150a1423f2
+  254  sudo docker run -it --name n1 -p 80:80 nginx
+  255  history2.txt
+  256  ls
+  257  pwd
+  258  ls
+  259  history
+  260  history -w history2.txt
+  261  ls
+  262  docker run hello world
+  263  sudo docker run -it --name n1 -p 80:80 nginx
+  264  sudo docker system prune -a
+  265  sudo docker run -it --name n1 -p 80:80 nginx
+  266  history
+  267  history -w history.txt
+  268  ls
+  269  git init
+  270  git add 'history.txt'
+  271  git commit -m 'history.txt'
+  272  git push origin master
+  273  git push origin 'history.txt'
+  274  git push test 'history.txt'
+  275  pwd
+  276  cd ..
+  277  pwd
+  278  cd ..
+  279  pwd
+  280  cd home
+  281  ls
+  282  cd vargyaslajos
+  283  ls
+  284  cd lajos
+  285  ls
+  286  cd test1
+  287  ls
+  288  history -w history2.txt
+  289  git add history2.txt
+  290  git commit -m 'history2.txt'
+  291  git push origin master
+  292  pwd
+  293  ls
+  294  cd docker
+  295  ls
+  296  cd ..
+  297  ls
+  298  cd ..
+  299  ls
+  300  cd docker
+  301  ls
+  302  cd doker
+  303  ls
+  304  cd ..
+  305  jenkins
+  306  cd jenkins
+  307  ls
+  308  cd ..
+  309  ls
+  310  cd doker
+  311  ls
+  312  nano Dockerfile
+  313  sudo docker build -t hefesita/aplicatie:1
+  314  sudo docker run -d --name t1 -p 80:8080 hefesita/aplicatie:1
+  315  sudo docker build -t hefesita/aplicatie:1 .
+  316  ls 
+  317  nano Dockerfile 
+  318  sudo docker build -t hefesita/aplicatie:1 .
+  319  sudo docker run -d --name t1 -p 80:8080 hefesita/aplicatie:1
+  320  cd ..
+  321  ls
+  322  cd lajos
+  323  ls
+  324  cd test1
+  325  ls
+  326  history -w lab3.txt
+  327  ls
+  328  git add lab3.txt
+  329  git commit -m 'lab3.txt'
+  330  git push origin master
+  331  ls
+  332  cd jenkins
+  333  ls
+  334  sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+  335  sudo firewall-cmd –reload
+  336  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+  337  java -jar jenkins.war
+  338  sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+  339  sudo firewall-cmd –reload
+  340  sudo firewall -cmd –reload
+  341  sudo firewall -cmd -–reload
+  342  sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+  343  sudo firewall-cmd –reload
+  344  ls
+  345  cd doker
+  346  ls
+  347  rm Dockerfile
+  348  sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+  349  sudo yum-config-manager --add-repo
+  350  https://download.docker.com/linux/centos/docker-ce.repo
+  351  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+  352  sudo yum install docker-ce
+  353  sudo systemctl start docker
+  354  sudo docker run hello-world
+  355  ls
+  356  cd..
+  357  cd ..
+  358  ls
+  359  cd doker
+  360  ls
+  361  ls
+  362  cd jenkins
+  363  ls
+  364  erase jenkins.war.1
+  365  delete jenkins.war.1
+  366  clean
+  367  delete
+  368  remove
+  369  rm jenkins.war
+  370  rm jenkins.war.1
+  371  ls
+  372  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+  373  java -jar jenkins.war
+  374  ls
+  375  cd maven
+  376  ls
+  377  cd devops-curs
+  378  ls
+  379  cd src
+  380  ls
+  381  cd main
+  382  ls
+  383  cd java
+  384  ls
+  385  cd devops
+  386  s
+  387  ls
+  388  cd curs
+  389  ls
+  390  cd ..d
+  391  cd ..
+  392  ls
+  393  pwd
+  394  sudo firewall-cmd --list-all
+  395  sudo firewall-cmd --permanent -zone=public --add-port=8080/tcp
+  396  sudo firewall-cmd --permanent - -zone=public --add-port=8080/tcp
+  397  sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+  398  sudo firewall-cmd --reload
+  399  mvn --version
+  400  sudo systemctl start docker
+  401  sudo docker run hello-world
+  402  sudo docker images
+  403  sudo docker ps
+  404  sudo docker ps -a
+  405  sudo docker debian ls
+  406  sudo docker run -it debian /bin/bash
+  407  sudo docker ps -a
+  408  ls
+  409  cd docker
+  410  ls docker
+  411  ls doker
+  412  ls
+  413  ls doker
+  414  cd jenkins
+  415  ls
+  416  cd ..
+  417  pwf
+  418  pwd
+  419  cd ..
+  420  ls
+  421  cd devops-curs
+  422  ls
+  423  mkdir exdokker
+  424  ls
+  425  cd usr
+  426  ls
+  427  sudo docker ps -a
+  428  cd ..
+  429  mkdir dokkerex
+  430  ls
+  431  cd home
+  432  ls
+  433  cd vargyaslajos
+  434  ls
+  435  mkdir dokkerex
+  436  from tomcat:8.0
+  437  sudo nano Dockerfile
+  438  ls
+  439  cd dokkerex
+  440  sudo nano dokkerex
+  441  ls
+  442  cd jenkins
+  443  ls
+  444  cd maven
+  445  ls
+  446  cd ..
+  447  ls
+  448  cd maven
+  449  ls
+  450  cd devops-curs
+  451  ls
+  452  mvn -version
+  453  ls
+  454  pwd
+  455  mvn -/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6
+  456  .x86_64/jrexit
+  457  cd ..
+  458  ls
+  459  cd ..
+  460  ls
+  461  cd jenkins
+  462  ls
+  463  cd dokker
+  464  cd dokkerex
+  465  ls
+  466  sudo nano exdokker
+  467  ls
+  468  cd dokkerex
+  469  ls
+  470  erase dokkerex.save
+  471  delete dokkerex.save
+  472  rm dokkerex.save
+  473  ls
+  474  nano dokkerex
+  475  ls
+  476  sudo docker biuld -t hefesita/aplicatie:1
+  477  sudo docker buid -t hefesita/aplicatie:1
+  478  sudo docker build -t hefesita/aplicatie:1
+  479  sudo docker run -d --name t1 -p 80:8080 hefesita/aplicatie:1
+  480  sudo docker build -t hefesita/aplicatie:1 .
+  481  sudo docker build -t dokkerex
+  482  ls
+  483  mv dokkerex Dockerfile
+  484  ls
+  485  sudo docker build -t hefesita/aplicatie:1 .
+  486  sudo docker run -d --name t1 -p 80:8080 hefesita/aplicatie:1
+  487  sudo docker run -d --name t91 -p 80:8080 hefesita/aplicatie:1
+  488  cd ..
+  489  ls
+  490  mkdir ex1
+  491  ls
+  492  cd ex1
+  493  ls
+  494  mvn archetype:generate -DgroupId=com.devops -DartifactId=SampleWebApplication -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+  495  ls
+  496  nano SampleWebApplication
+  497  cd SampleWebApplication
+  498  ls
+  499  cd src
+  500  ls
+  501  cd main
+  502  ls
+  503  cd webapp
+  504  ls
+  505  nano index.jsp
+  506  cd ..
+  507  ls
+  508  cd dokkerex
+  509  ls
+  510  nano Dockerfile
+  511  sudo docker build -t hefesita/aplicatie:1 .
+  512  sudo docker run -d --name t81 -p 80:8080 hefesita/aplicatie:1
+  513  cd ..
+  514  ls
+  515  cd ex1
+  516  ls
+  517  git clone https://github.com/vargyaslajos/exercitiu1.git
+  518  ls
+  519  nano exercitiu1
+  520  cd exercitiu1
+  521  ls
+  522  mvn archetype:generate -DgroupId=com.devops -DartifactId=SampleWebApplication -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+  523  git commit -a
+  524  git a
+  525  git add
+  526  git commit -a -n'sample'
+  527  git add SampleWebApplication/*
+  528  git push origin
+  529  git push origin master
+  530  history
+  531  git add -i#
+  532  git add -i
+  533  git commit -a -m'aplicatie'
+  534  git push origin
+  535  ls -all
+  536  git pull origin
+  537  ls
+  538  git add SampleWebApplication/*
+  539  git add -i
+  540  git commit -a -m'aplicatie'
+  541  git push origin master
+  542  ls
+  543  cd SampleWebApplication/
+  544  ls
+  545  ls src
+  546  ls
+  547  cd src
+  548  ls
+  549  cd main
+  550  ls
+  551  cd webapp
+  552  ls
+  553  nano index.jsp
+  554  cd..
+  555  cd.
+  556  cd..
+  557  cd ..
+  558  4cd ..
+  559  cd.. 
+  560  cd  
+  561  cd ..
+  562  ls
+  563  cd home
+  564  ls
+  565  cd vargyaslajos
+  566  ls
+  567  cd ex1
+  568  ls
+  569  cd exercitiu1
+  570  ls
+  571  gith push origin
+  572  git push origin
+  573  git push origin master
+  574  git add SampleWebApplication/
+  575  git commit SampleWebApplication/
+  576  git push origin master
+  577  ls
+  578  cd ..
+  579  ls
+  580  cd /home/vargyaslajos/.jenkins/workspace/exercitiu1/
+  581  ls
+  582  cd S
+  583  ls
+  584  cd SampleWebApplication
+  585  ls
+  586  pwd
+  587  nano Dockerfile
+  588  sudo docker build -t exercitiu1
+  589  sudo docker build -t exercitiu/ex1 .
+  590  sudo docker build -t hefesita/aplicatie:1 .
+  591  sudo docker build -t exercitiu/ex1 .
+  592  sudo docker run -d --name t1 -p 80:8080 exercitiu/ex1
+  593  sudo docker run -d --name t1 -p 80:8080 hefesita/aplicatie:1
+  594  docker start
+  595  sudo docker build -t exercitiu/ex1 .
+  596  ls
+  597  docker Dockerfile
+  598  nano Dockerfile
+  599  sudo docker build -t exercitiu/ex1 .
+  600  sudo docker run -d --name t1 -p 80:8080 exercitiu/ex1
+  601  sudo docker run -d --name t8 -p 80:8080 exercitiu/ex1
+  602  sudo docker ps
+  603  docker stop t91
+  604  sudo docker stop t91
+  605  ls
+  606  sudo docker ps
+  607  sudo docker run -d --name t1 -p 80:8080 exercitiu/ex1
+  608  sudo docker ps
+  609  sudo docker run -d --name t2 -p 80:8080 exercitiu/ex1
+  610  history
+  611  -w history
+  612  history>history.txt
+  613  ls
+  614  ls
+  615  cd jenkins
+  616  wget http;//mirrors.jenkins.io/war-stable/latest/jenkins.war
+  617  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+  618  java -jar jenkins.war
+  619  pwd.
+  620  pwd
+  621  ls
+  622  cd ex1
+  623  ls
+  624  cd SampleWebApplication
+  625  ls
+  626  history>history.txt
